@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      .form-control {
+        margin-top: 1rem;
+      }
+      #submit-btn {
+        padding: 1rem 2rem;
+        background-color: aqua;
+        border: none;
+        border: 1px solid black;
+      }
+      /* #male {
+        background-color: blue;
+        color: chartreuse;
+      } */
+    </style>
+  </head>
+  <body>
+    <form>
+      <!-- Name -->
+      <div class="form-control">
+        <label for="name">Name: </label>
+        <input type="text" id="name" placeholder="username" required />
+      </div>
+      <!-- Password -->
+      <div class="form-control">
+        <label for="password">Password: </label>
+        <input type="password" id="password" placeholder="password" />
+      </div>
+      <!-- Age/Number -->
+      <div class="form-control">
+        <label for="age">Age: </label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          placeholder="age"
+          min="1"
+          max="100"
+          step="5"
+        />
+      </div>
+      <!-- Date -->
+      <div class="form-control">
+        <label for="date">Birthday: </label>
+        <input type="date" id="date" name="date" min="2020-11-10" />
+      </div>
+      <!-- CheckBox -->
+      <div class="form-control">
+        Favourite Food:
+        <div>
+          <label for="banana">Banana</label>
+          <input type="checkbox" id="banana" name="banana" />
+        </div>
+        <div>
+          <label for="apple">Apple</label>
+          <input type="checkbox" id="apple" name="apple" />
+        </div>
+      </div>
+      <!-- Radio -->
+      <div class="form-control">
+        Gender:
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" value="male" />
+        </div>
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" value="female" />
+        </div>
+      </div>
+      <!-- Select -->
+      <div class="form-control">
+        <label for="eyecolor">Eye Color</label>
+        <select name="eyeColor" id="eyecolor">
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+        </select>
+      </div>
+      <!-- TextArea -->
+      <div class="form-control">
+        <label for="bio">Bio: </label> <br />
+        <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+      </div>
+      <!-- hidden -->
+      <input type="hidden" name="hidden" value="hi" />
+      <!-- file -->
+      <div class="form-control">
+        <label for="file">Upload File</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <!-- color -->
+      <div class="form-control">
+        <label for="color">Color:</label>
+        <input type="color" name="color" id="color" />
+      </div>
+      <!-- URL -->
+      <div class="form-control">
+        <label for="url">URL:</label>
+        <input type="url" name="url" id="url" />
+      </div>
+      <!-- ResetButton -->
+      <button type="reset">Reset</button>
+      <!-- SubmitButton -->
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
