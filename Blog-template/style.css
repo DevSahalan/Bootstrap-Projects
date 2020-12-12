@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+  --background-color: #0b0c10;
+  --background-color-2: #1f2833;
+  --primary: #66fcf1;
+  --gray: #c5c6c7;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: var(--primary);
+}
+a {
+  color: var(--primary);
+}
+img {
+  filter: grayscale(50%) brightness(0.8);
+}
+img.rounded-circle {
+  filter: none;
+  border: 2px solid var(--primary);
+}
+/* Navbar */
+.navbar {
+  background-color: var(--background-color);
+  /* color: var(--primary); */
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.btn-nav {
+  background-color: var(--primary);
+  font-weight: 700;
+}
+.btn-nav:hover {
+  background-color: #66f6f1c7;
+}
+input {
+  background-color: var(--background-color-2) !important;
+  border: none !important;
+  border: 1px solid var(--primary) !important;
+  color: var(--primary) !important;
+}
+/* hero */
+.hero {
+  background-color: var(--background-color-2);
+}
+.hero-post {
+  position: relative;
+}
+
+.hero-post-badges {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  color: var(--primary);
+}
+.hero-post-badges p {
+  background-color: black;
+  padding: 0 1rem;
+  margin-bottom: 0.3rem;
+}
+.hero-post-content {
+  position: absolute;
+  bottom: 2%;
+  color: var(--primary);
+}
+.hero-post-2 {
+  margin-bottom: 1.1rem;
+}
+@media (max-width: 1200px) {
+  .hero-post-2 {
+    margin-bottom: 1.25rem;
+  }
+}
+@media (max-width: 576px) {
+  .hero-post-2 {
+    margin-bottom: 1rem;
+  }
+}
+
+/* blog-posts */
+
+.blog-posts {
+  background-color: var(--background-color);
+  color: var(--gray);
+}
+.blog-post {
+  background-color: var(--background-color-2);
+}
+.blog-post .col-sm-8 {
+  border-left: 3px solid var(--primary);
+}
+.blog-post p {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.h-155 {
+  height: 155px;
+}
+@media (max-width: 992px) {
+  .h-155 {
+    height: 173px;
+  }
+}
+@media (max-width: 567px) {
+  .h-155 {
+    height: auto;
+  }
+}
+
+/* social links */

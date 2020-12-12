@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img {
+        max-width: 100%;
+      }
+      .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+          'hero-1 hero-2'
+          'hero-1 hero-3';
+        min-height: 80vh;
+      }
+      .hero-post-1 {
+        grid-area: hero-1;
+        min-height: 80vh;
+      }
+      .hero-post-1 img {
+        min-height: 75%;
+      }
+      .hero-post-2 {
+        grid-area: hero-2;
+        min-height: 40%;
+      }
+      .hero-post-3 {
+        grid-area: hero-3;
+        min-height: 40%;
+      }
+      @media (max-width: 768px) {
+        .hero {
+          display: grid;
+          grid-template-columns: 1fr;
+          grid-template-areas:
+            'hero-1'
+            'hero-2'
+            'hero-3';
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-post-1">
+          <img src="img/03.jpg" alt="" class="img-fluid" />
+          <div class="hero-post-badges">
+            <p><i class="fas fa-calendar-alt me-3"></i>15 March 2020</p>
+            <p>Technology</p>
+          </div>
+          <div class="hero-post-content ms-3">
+            <div class="row align-items-center">
+              <div class="col-md-3">
+                <img
+                  src="img/p-3.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-9">
+                <h3>My Blog Post</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-post-2">
+          <img
+            src="img/03.jpg"
+            alt=""
+            class="img-fluid"
+            width="500px"
+            height="150px"
+          />
+          <div class="hero-post-badges">
+            <p><i class="fas fa-calendar-alt me-3"></i>15 March 2020</p>
+            <p>Technology</p>
+          </div>
+          <div class="hero-post-content ms-3">
+            <div class="row align-items-center">
+              <div class="col-md-3">
+                <img
+                  src="img/p-3.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-9">
+                <h3>My Blog Post</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-post-3">
+          <img
+            src="img/03.jpg"
+            alt=""
+            class="img-fluid"
+            width="500px"
+            height="150px"
+          />
+          <div class="hero-post-badges">
+            <p><i class="fas fa-calendar-alt me-3"></i>15 March 2020</p>
+            <p>Technology</p>
+          </div>
+          <div class="hero-post-content ms-3">
+            <div class="row align-items-center">
+              <div class="col-md-3">
+                <img
+                  src="img/p-3.jpg"
+                  class="img-fluid rounded-circle"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-9">
+                <h3>My Blog Post</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
