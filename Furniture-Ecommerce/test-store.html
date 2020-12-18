@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      img {
+        max-width: 100%;
+      }
+      .store {
+        padding-top: 2rem;
+        max-width: 80%;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 1.3rem;
+        font-weight: 400;
+      }
+      .store-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+      .store-row > * {
+        flex: 1;
+        text-align: center;
+      }
+      .btn {
+        padding: 0.5rem 0.5rem;
+        border: 1px solid black;
+        transition: all 0.3s;
+        margin-right: 0.2rem;
+      }
+      .btn:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+      .store-row img {
+        width: 130px;
+        height: 130px;
+        /* margin-left: -5%; */
+      }
+      @media (max-width: 768px) {
+        .store-row {
+          flex-direction: column;
+
+          margin-bottom: 2rem;
+        }
+        .btn-col {
+          margin: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="store">
+      <div class="store-row tc">
+        <h1>Products</h1>
+        <h1>NAME OF PRODUCT</h1>
+        <h1>PRICE</h1>
+        <h1>QUANTITY</h1>
+        <h1>TOTAL</h1>
+      </div>
+      <div class="store-row">
+        <img src="img/img-products/product-1.png" alt="" />
+        <h1>COMFORT OF CHAIR</h1>
+        <h1>$100</h1>
+        <h1 class="btn-col">
+          <span class="btn">-</span>
+          <span class="btn">4</span>
+          <span class="btn">+</span>
+        </h1>
+        <h1>$100</h1>
+      </div>
+      <div class="store-row">
+        <img src="img/img-products/product-2.png" alt="" />
+        <h1>COMFORT OF CHAIR</h1>
+        <h1>$100</h1>
+        <h1 class="btn-col">
+          <span class="btn">-</span>
+          <span class="btn">4</span>
+          <span class="btn">+</span>
+        </h1>
+        <h1>$100</h1>
+      </div>
+      <div class="store-row">
+        <img src="img/img-products/product-3.png" alt="" />
+        <h1>COMFORT OF CHAIR</h1>
+        <h1>$100</h1>
+        <h1 class="btn-col">
+          <span class="btn">-</span>
+          <span class="btn">4</span>
+          <span class="btn">+</span>
+        </h1>
+        <h1>$100</h1>
+      </div>
+      <div class="store-row">
+        <img src="img/img-products/product-1.png" alt="" />
+        <h1>COMFORT OF CHAIR</h1>
+        <h1>$100</h1>
+        <h1 class="btn-col">
+          <span class="btn">-</span>
+          <span class="btn">4</span>
+          <span class="btn">+</span>
+        </h1>
+        <h1>$100</h1>
+      </div>
+    </div>
+  </body>
+</html>

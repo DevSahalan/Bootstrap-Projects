@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --yellow: #21e632;
+  /* --yellow: #9400d3; */
+  /* --yellow: #ffc61a; */
+}
+body {
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+ul,
+ol,
+input {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+p {
+  color: #101010;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.bg-orange {
+  background-color: var(--yellow);
+}
+.text-orange {
+  color: var(--yellow);
+}
+.text-black {
+  color: black;
+}
+.btn {
+  font-family: 'Bebas Neue', cursive;
+}
+img {
+  max-width: 100%;
+}
+button {
+  font-size: 1.2rem;
+}
+/* header *************************************************/
+
+.header {
+  background: url('../img/Header/header-bg.jpg') no-repeat center/ cover;
+
+  height: 80vh;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  border-radius: 10px;
+  padding: 4px 18px;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: white;
+  background-color: var(--yellow);
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  color: black;
+  background-color: var(--yellow);
+}
+
+.hero-text h5 {
+  letter-spacing: 0.3rem;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.hero-text img {
+  transform: translateY(10%);
+}
+
+/* end header *************************************************/
+
+/* cab start ************************************/
+/* .cab {
+  padding-top: 12rem;
+} */
+
+.cab-left > * {
+  margin-bottom: 0.7rem;
+}
+/* .cab-left p {
+  color: #101010;
+} */
+
+.btn-text-orange:hover {
+  color: var(--yellow);
+}
+.cab-right input {
+  border: none;
+}
+.cab-right input:focus {
+  box-shadow: none;
+}
+.cab-right {
+  width: 320px;
+}
+.cab-top-margin {
+  margin-top: 6rem;
+}
+/* cab end ************************************/
+
+/* tarif***************************** */
+.tariff-item > * {
+  margin-bottom: 1rem;
+}
+.tariff-item {
+  transition: all 0.6s;
+}
+.tariff-item:hover {
+  background-color: var(--yellow);
+  transform: scale(1.1);
+}
+.tariff-item h1 {
+  transition: all 0.6s;
+}
+.tariff-item button {
+  transition: all 0.6s;
+}
+.tariff-item:hover h1 {
+  color: black;
+}
+.tariff-item:hover button {
+  background-color: black;
+  color: white;
+}
+.tariff-item img {
+  transform: translateY(-70%);
+}
+.tariff-item-margin-top {
+  margin-top: 8rem;
+}
+.tariff-item h2 {
+  margin-top: -7rem;
+}
+/* tarif***************************** */
+
+/* services */
+.services {
+  background: url(../img/Content/content-bg.jpg) no-repeat center/ cover;
+}
+.services h3 {
+  color: var(--yellow);
+}
+.services p {
+  color: white;
+}
+.services button {
+  padding: 0.5rem 2rem;
+}
+.services {
+  min-height: 100vh;
+}
+/* services */
+
+/* download */
+.download-left > * {
+  margin-top: 1rem;
+}
+
+/* testimony */
+.testimony {
+  background: url(../img/Testim/testim-bg.png) no-repeat center / cover;
+}
+.testimony .bg-dark {
+  background-color: black !important;
+  border-radius: 30px;
+}
+.single-testimony p {
+  color: white;
+}
+.single-testimony p {
+  color: white;
+}
+.single-testimony h3 {
+  color: var(--yellow);
+}
+.single-testimony h4 {
+  color: white;
+}
+/* testimony */
+
+/* footer */
+.footer {
+  background: url(../img/Contact/contact-bg.jpg);
+}
+.footer .line {
+  width: 100%;
+  height: 5%;
+  background-color: var(--yellow);
+}
+.footer-first-sec > * {
+  margin-top: 1rem;
+}
+/* footer */

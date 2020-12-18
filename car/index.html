@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- own css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Hello, world!</title>
+    <link rel="shortcut icon" href="img/Header/car.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- start header ******************************************-->
+    <header class="header">
+      <div class="container">
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container fixed-top">
+            <a class="navbar-brand" href="#">
+              <img src="img/Header/logo.png" alt="" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FEATURES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ORDER NOW</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- end of nav -->
+        <!-- hero-text -->
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-12 hero-text text-center mt-5">
+              <h3 class="text-orange">BOOK CAB NOW</h3>
+              <h1 class="text-white">+123 4567 8900</h1>
+              <h5 class="text-white">WWW.PSDFREEBIES.COM</h5>
+
+              <img src="img/Header/car.png" alt="car" />
+            </div>
+          </div>
+        </div>
+        <!-- end of hero-text -->
+      </div>
+    </header>
+    <!-- CAB -->
+    <section class="cab bg-orange pt-5">
+      <div class="container">
+        <div class="row py-sm-5 cab-top-margin">
+          <div class="col-md-7 text-dark">
+            <div class="cab-left pt-md-5">
+              <h5 class="text-uppercase mt-md-3 text-black">BEst In City</h5>
+              <h3 class="text-black text-uppercase">
+                Trusted Cab Servies in New York
+              </h3>
+              <p class="py-3">
+                Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien
+                eros sodales ante, euismod aliquet nulla metus a mauris.Quisque
+                sollicitudin feugiat risus, eu posuere ex euismod eu. Phasellus
+                hendrerit, massa efficitur dapibus pulvinar, sapien eros sodales
+                ante, euismod aliquet nulla metus a mauris.
+              </p>
+              <button class="btn btn-dark btn-text-orange">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="cab-right mt-5 bg-white">
+              <h5 class="text-uppercase mt-md-3 text-white bg-dark p-3">
+                book a cab
+              </h5>
+              <form class="row px-4 py-1">
+                <div class="col-6">
+                  <input type="text" placeholder="Name" class="form-control" />
+                </div>
+                <div class="col-6">
+                  <input type="text" placeholder="Phone" class="form-control" />
+                </div>
+                <div class="col-6">
+                  <input type="text" placeholder="When" class="form-control" />
+                </div>
+                <div class="col-6">
+                  <input type="text" placeholder="Time" class="form-control" />
+                </div>
+                <div class="col-6">
+                  <input type="text" placeholder="Start" class="form-control" />
+                </div>
+                <div class="col-6">
+                  <input type="text" placeholder="End" class="form-control" />
+                </div>
+                <div class="col-12">
+                  <select name="" id="">
+                    <option value="Mercidis">Choose Vehicle</option>
+                    <option value="Mercidis">Mercidis</option>
+                    <option value="Mercidis">Jaguar</option>
+                  </select>
+                </div>
+                <button class="btn btn-dark mt-3" type="submit">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Of CAB -->
+    <!-- Tariff -->
+    <section class="tariff py-5">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-10 mx-auto text-center">
+            <h1 class="text-uppercase">
+              <span class="text-orange">our</span> tariff
+            </h1>
+          </div>
+        </div>
+        <div class="row py-3 tariff-item-margin-top">
+          <!-- single tariff -->
+          <div class="col-md-4 text-center tariff-item mb-md-0">
+            <img src="img/Card/card-img.png" class="mt-3" alt="" />
+            <h2 class="text-uppercase">Economy Class</h2>
+            <p>
+              Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+              Phasellus hendrerit, massa efficitur.
+            </p>
+            <h1 class="text-orange">$1.5/mil</h1>
+            <button class="btn bg-orange text-uppercase">read more</button>
+          </div>
+          <!-- end of single tariff -->
+          <!-- single tariff -->
+          <div class="col-md-4 text-center tariff-item mb-md-0">
+            <img src="img/Card/card-img.png" class="mt-3" alt="" />
+            <h2 class="text-uppercase">Economy Class</h2>
+            <p>
+              Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+              Phasellus hendrerit, massa efficitur.
+            </p>
+            <h1 class="text-orange">$1.5/mil</h1>
+            <button class="btn bg-orange text-uppercase">read more</button>
+          </div>
+          <!-- end of single tariff -->
+          <!-- single tariff -->
+          <div class="col-md-4 text-center tariff-item mb-md-0">
+            <img src="img/Card/card-img.png" class="mt-3" alt="" />
+            <h2 class="text-uppercase">Economy Class</h2>
+            <p>
+              Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+              Phasellus hendrerit, massa efficitur.
+            </p>
+            <h1 class="text-orange">$1.5/mil</h1>
+            <button class="btn bg-orange text-uppercase">read more</button>
+          </div>
+          <!-- end of single tariff -->
+        </div>
+      </div>
+    </section>
+    <!-- End Of Tariff -->
+    <!-- services -->
+    <section class="services py-5">
+      <div class="container">
+        <div class="row mt-4">
+          <div class="col-10 mx-auto text-center">
+            <h1 class="text-uppercase">
+              <h2 class="text-orange text-uppercase">we do best</h2>
+              <h1 class="text-white text-uppercase">than you wish</h1>
+            </h1>
+          </div>
+        </div>
+        <div class="row py-5">
+          <!-- single service -->
+          <div class="col-md-6 py-3 mb-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/Content/icon-1.png" alt="" />
+              </div>
+              <div class="col-9">
+                <h3 class="mb-3">Home Pickup</h3>
+                <p>
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of single service -->
+          <!-- single service -->
+          <div class="col-md-6 py-3 mb-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/Content/icon-2.png" alt="" />
+              </div>
+              <div class="col-9">
+                <h3 class="mb-3">fast booking</h3>
+                <p>
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of single service -->
+          <!-- single service -->
+          <div class="col-md-6 py-3 mb-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/Content/icon-3.png" alt="" />
+              </div>
+              <div class="col-9">
+                <h3 class="mb-3">bonuses for ride</h3>
+                <p>
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of single service -->
+          <!-- single service -->
+          <div class="col-md-6 py-3 mb-3">
+            <div class="row">
+              <div class="col-3">
+                <img src="img/Content/icon-4.png" alt="" />
+              </div>
+              <div class="col-9">
+                <h3 class="mb-3">gps searching</h3>
+                <p>
+                  Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+                  Phasellus hendrerit, massa efficitur
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of single service -->
+
+          <div class="col-12 text-center mt-5">
+            <button class="btn bg-orange">READ MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of services -->
+    <!-- Downlaod -->
+    <section class="download pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h1 class="text-uppercase">
+              <h2 class="text-orange text-uppercase">download</h2>
+              <h1 class="text-uppercase">best cab services</h1>
+            </h1>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-md-6 download-left mb-5 mb-md-0">
+            <h3>Downlaod the Cab voucher app free! Get Exciting New Offers</h3>
+            <p class="mb-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+              quibusdam dolores omnis veniam voluptates debitis adipisci est,
+              odit neque tempora.
+            </p>
+            <img src="img/Services/google-play.png" alt="" />
+            <img src="img/Services/apple-store.png" alt="" />
+          </div>
+          <div class="col-md-6">
+            <img src="img/Services/service-mobile.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Downlaod -->
+    <!-- Testimony -->
+    <section class="testimony py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 mx-auto text-center">
+            <h1 class="text-uppercase">
+              <h2 class="text-orange text-uppercase">download</h2>
+              <h1 class="text-uppercase text-white">best cab services</h1>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-around py-5">
+        <!-- single testimony -->
+        <div class="col-md-5 p-4 bg-dark single-testimony mb-3 mb-md-0">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            commodi qui in autem fugiat nesciunt repellat, facere laborum
+            voluptatem id?
+          </p>
+          <div class="row mt-4 align-items-center">
+            <div class="col-3">
+              <img src="img/Testim/man.png" alt="" />
+            </div>
+            <div class="col-9">
+              <h3 class="text-uppercase">john doe</h3>
+              <h4 class="text-uppercase">businessman</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of single testimony -->
+
+        <!-- single testimony -->
+        <div class="col-md-5 p-4 bg-dark single-testimony">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            commodi qui in autem fugiat nesciunt repellat, facere laborum
+            voluptatem id?
+          </p>
+          <div class="row mt-4 align-items-center">
+            <div class="col-3">
+              <img src="img/Testim/man.png" alt="" />
+            </div>
+            <div class="col-9">
+              <h3 class="text-uppercase">john doe</h3>
+              <h4 class="text-uppercase">businessman</h4>
+            </div>
+          </div>
+        </div>
+        <!-- end of single testimony -->
+      </div>
+    </section>
+    <!-- end of Testimony -->
+    <!-- call section -->
+    <section class="call py-5 bg-orange">
+      <div class="row">
+        <div class="col-10 mx-auto text-center">
+          <h4 class="text-uppercase">
+            we are to take your call 24hours, 7days
+          </h4>
+          <h1>+123 4567 8900</h1>
+        </div>
+      </div>
+    </section>
+    <!-- end of call section -->
+    <!-- footer -->
+    <section class="footer py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-4 footer-first-sec mb-5 mb-md-0 text-center text-md-start"
+          >
+            <h3 class="text-uppercase text-white">about cab hub</h3>
+            <div class="line"></div>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut
+              explicabo mollitia dolores et recusandae reprehenderit maiores
+              asperiores deserunt officia aspernatur doloribus, tempora
+              accusantium iusto.
+            </p>
+            <p>
+              <a href="#"><i class="text-orange fab fa-facebook-f me-4"></i></a>
+              <a href="#"><i class="text-orange fab fa-google me-4"></i></a>
+              <a href="#"><i class="text-orange fab fa-instagram me-4"></i></a>
+              <a href="#"><i class="text-orange fab fa-twitter"></i></a>
+            </p>
+          </div>
+          <div
+            class="col-md-4 footer-first-sec mb-5 mb-md-0 text-center text-md-start"
+          >
+            <h3 class="text-uppercase text-white">download</h3>
+            <div class="line"></div>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ut
+              explicabo mollitia dolores et
+            </p>
+            <p class="text-white">
+              android user
+              <a href="#" class="ms-3">
+                <i class="fas fa-robot text-white fa-2x"></i>
+              </a>
+            </p>
+            <p class="text-white">
+              apple user
+              <a href="#" class="ms-3">
+                <i class="fab fa-apple text-white fa-2x"></i
+              ></a>
+            </p>
+          </div>
+          <div
+            class="col-md-4 footer-first-sec mb-5 mb-md-0 text-center text-md-start"
+          >
+            <h3 class="text-uppercase text-white">contact</h3>
+            <div class="line"></div>
+
+            <p class="mb-3 text-white">
+              <span class="me-3"
+                ><i class="fas fa-map-marker-alt text-white"></i></span
+              >+123, Main Street, Your City, New York, USA
+            </p>
+            <p class="mb-3 text-white">
+              <span class="me-3"
+                ><i class="fas fa-phone-square text-white"></i></span
+              >+123 4567 8900
+            </p>
+            <p class="mb-3 text-white">
+              <span class="me-3"
+                ><i class="fas fa-envelope-square text-white"></i></span
+              >free@psdfreebies.com
+            </p>
+            <p class="mb-3 text-white">
+              <span class="me-3"><i class="fas fa-link text-white"></i></span
+              >www.psdfreebies.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of footer -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

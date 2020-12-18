@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        display: grid;
+        justify-content: center;
+        gap: 1rem;
+        grid-template-columns: repeat(12, 1fr);
+      }
+      .grid-item {
+        grid-column: span 3;
+        border: 1px solid red;
+      }
+      @media (max-width: 1000px) {
+        .grid-item {
+          grid-column: span 6;
+        }
+      }
+      @media (max-width: 576px) {
+        .grid-item {
+          grid-column: 2/ -2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="grid-item">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+        delectus!
+      </div>
+      <div class="grid-item">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+        delectus!
+      </div>
+      <div class="grid-item">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+        delectus!
+      </div>
+      <div class="grid-item">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat,
+        delectus!
+      </div>
+    </div>
+  </body>
+</html>
