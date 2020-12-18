@@ -36,6 +36,7 @@ h4,
 h5,
 h6 {
   font-weight: 900;
+  text-transform: uppercase;
 }
 p {
   color: #101010;
@@ -119,6 +120,7 @@ button {
 }
 .cab-right input:focus {
   box-shadow: none;
+  border-bottom: 1px solid var(--yellow);
 }
 .cab-right {
   width: 320px;
